@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cars.haivu.carsinfor.Main2Activity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/buttonmerceId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonmerc"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbmwId"
+        app:layout_constraintRight_toRightOf="@+id/buttonbmwId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonbmwId" />
+
+    <Button
+        android:id="@+id/buttonbmwId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonbmw"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonaudiId"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/buttonaudiId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonaudi"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonfordId"
+        app:layout_constraintRight_toRightOf="@+id/buttonbmwId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonbmwId" />
+
+    <Button
+        android:id="@+id/buttonfordId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonford"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttongmcId"
+        app:layout_constraintRight_toRightOf="@+id/buttonaudiId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonaudiId" />
+
+    <Button
+        android:id="@+id/buttongmcId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttongmc"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonchevyId"
+        app:layout_constraintRight_toRightOf="@+id/buttonfordId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonfordId" />
+
+    <Button
+        android:id="@+id/buttonchevyId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonchevy"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlincolnId"
+        app:layout_constraintRight_toRightOf="@+id/buttongmcId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttongmcId" />
+
+    <Button
+        android:id="@+id/buttonlincolnId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonlincoln"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttoncadillacId"
+        app:layout_constraintRight_toRightOf="@+id/buttonchevyId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonchevyId" />
+
+    <Button
+        android:id="@+id/buttoncadillacId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttoncadillac"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonhondaId"
+        app:layout_constraintRight_toRightOf="@+id/buttonlincolnId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonlincolnId" />
+
+    <Button
+        android:id="@+id/buttonhondaId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonhonda"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttontoyotaId"
+        app:layout_constraintRight_toRightOf="@+id/buttoncadillacId"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/buttoncadillacId" />
+
+    <Button
+        android:id="@+id/buttontoyotaId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttontoyota"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/buttonhondaId"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonhondaId" />
+</android.support.constraint.ConstraintLayout>

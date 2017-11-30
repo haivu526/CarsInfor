@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cars Infor</string>
+    <string name="button">Enter</string>
+    <string name="buttonmerc">Mercedes Benz</string>
+    <string name="buttonbmw">BMW</string>
+    <string name="buttonaudi">AUDI</string>
+    <string name="buttonford">FORD</string>
+    <string name="buttongmc">GMC</string>
+    <string name="buttonchevy">CHEVROLET</string>
+    <string name="buttonlincoln">LINCOLN</string>
+    <string name="buttoncadillac">CADILLAC</string>
+    <string name="buttonhonda">HONDA</string>
+    <string name="buttontoyota">TOYOTA</string>
+    <string name="buttonmerc2">Next</string>
+</resources>
